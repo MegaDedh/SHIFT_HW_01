@@ -2,7 +2,7 @@ fun main() {
 
     val cityName = getCity()
     val temperature = getTemperature(cityName)
-    println("$cityName $temperature")
+    //println("$cityName $temperature")
 
     val city = City(cityName, temperature)
     val feeling = feelingTemperature(city.temperature).feel
